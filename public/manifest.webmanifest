@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "id": "/",
+    "name": "DevTown",
+    "description": "DevTown",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "icons": [
+        {
+            "src": "/logo-color.png",
+            "sizes": "any",
+            "type": "image/png"
+        }
+    ],
+    "short_name": "devtown",
+    "start_url": "/",
+    "shortcuts": [],
+    "display": "standalone",
+    "screenshots": [],
+    "related_applications": [],
+    "categories": [],
+    "scope": "/",
+    "lang": "en-US",
+    "share_target": {
+        "action": "/share",
+        "params": {
+            "files": []
+        },
+        "method": "POST",
+        "enctype": "APPLICATION/X-WWW-FORM-URLENCODED"
+    }
+}
